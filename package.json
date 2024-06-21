@@ -2,7 +2,8 @@
   "name": "bundled-open-cli",
   "version": "0.0.3",
   "private": false,
-  "description": "",
+  "description": "Open stuff like URLs, files, executables. Cross-platform.",
+  "repository": "sukkaw/bundled-open-cli",
   "main": "dist/cli.mjs",
   "bin": {
     "open-cli": "dist/cli.mjs"
@@ -15,8 +16,34 @@
     "build": "rollup -c rollup.config.ts --configPlugin swc3 --bundleConfigAsCjs",
     "release": "bumpp -r --all --commit \"release: %s\" --tag \"%s\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "app",
+    "open",
+    "opener",
+    "opens",
+    "launch",
+    "start",
+    "xdg-open",
+    "xdg",
+    "default",
+    "cmd",
+    "browser",
+    "editor",
+    "executable",
+    "exe",
+    "url",
+    "urls",
+    "arguments",
+    "spawn",
+    "exec",
+    "child",
+    "process",
+    "website",
+    "file"
+  ],
+  "author": "SukkaW <https://skk.moe>",
   "license": "MIT",
   "devDependencies": {
     "@eslint-sukka/node": "^5.1.2",
@@ -33,5 +60,8 @@
     "rollup-plugin-swc3": "^0.11.2",
     "typescript": "^5.4.5"
   },
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.4.0",
+  "engines": {
+    "node": ">=18"
+  }
 }
