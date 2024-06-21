@@ -1,5 +1,5 @@
 {
-  "name": "@sukka/open",
+  "name": "bundled-open-cli",
   "version": "0.0.0",
   "private": false,
   "description": "",
@@ -10,22 +10,20 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "eslint": "^9.5.0",
-    "eslint-config-sukka": "6.0.0-beta.25",
-    "eslint-formatter-sukka": "6.0.0-beta.25",
-    "rollup": "^4.18.0",
-    "rollup-plugin-swc3": "^0.11.2",
-    "typescript": "^5.4.5"
-  },
+  "license": "MIT",
   "devDependencies": {
     "@eslint-sukka/node": "^5.1.2",
     "@eslint-sukka/ts": "^5.1.2",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/node": "^20.14.7",
-    "open-cli": "^8.0.0"
+    "eslint": "^9.5.0",
+    "eslint-config-sukka": "6.0.0-beta.25",
+    "eslint-formatter-sukka": "6.0.0-beta.25",
+    "open-cli": "^8.0.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-swc3": "^0.11.2",
+    "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@9.4.0"
 }

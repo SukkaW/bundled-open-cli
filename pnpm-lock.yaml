@@ -7,25 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      eslint:
-        specifier: ^9.5.0
-        version: 9.5.0
-      eslint-config-sukka:
-        specifier: 6.0.0-beta.25
-        version: 6.0.0-beta.25(@typescript-eslint/eslint-plugin@7.13.1(@typescript-eslint/parser@7.13.1(eslint@9.5.0)(typescript@5.4.5))(eslint@9.5.0)(typescript@5.4.5))(eslint@9.5.0)(typescript@5.4.5)
-      eslint-formatter-sukka:
-        specifier: 6.0.0-beta.25
-        version: 6.0.0-beta.25
-      rollup:
-        specifier: ^4.18.0
-        version: 4.18.0
-      rollup-plugin-swc3:
-        specifier: ^0.11.2
-        version: 0.11.2(@swc/core@1.6.3)(rollup@4.18.0)
-      typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
     devDependencies:
       '@eslint-sukka/node':
         specifier: ^5.1.2
@@ -42,9 +23,27 @@ importers:
       '@types/node':
         specifier: ^20.14.7
         version: 20.14.7
+      eslint:
+        specifier: ^9.5.0
+        version: 9.5.0
+      eslint-config-sukka:
+        specifier: 6.0.0-beta.25
+        version: 6.0.0-beta.25(@typescript-eslint/eslint-plugin@7.13.1(@typescript-eslint/parser@7.13.1(eslint@9.5.0)(typescript@5.4.5))(eslint@9.5.0)(typescript@5.4.5))(eslint@9.5.0)(typescript@5.4.5)
+      eslint-formatter-sukka:
+        specifier: 6.0.0-beta.25
+        version: 6.0.0-beta.25
       open-cli:
         specifier: ^8.0.0
         version: 8.0.0
+      rollup:
+        specifier: ^4.18.0
+        version: 4.18.0
+      rollup-plugin-swc3:
+        specifier: ^0.11.2
+        version: 0.11.2(@swc/core@1.6.3)(rollup@4.18.0)
+      typescript:
+        specifier: ^5.4.5
+        version: 5.4.5
 
 packages:
 
@@ -2039,7 +2038,7 @@ snapshots:
       eslint-import-resolver-node: 0.3.9
       get-tsconfig: 4.7.5
       is-glob: 4.0.3
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       semver: 7.6.2
       tslib: 2.6.3
     transitivePeerDependencies:
