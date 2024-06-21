@@ -4,7 +4,9 @@
   "private": false,
   "description": "",
   "main": "dist/cli.mjs",
-  "bin": "dist/cli.mjs",
+  "bin": {
+    "open-cli": "dist/cli.mjs"
+  },
   "files": [
     "dist"
   ],
