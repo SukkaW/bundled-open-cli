@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "description": "Open stuff like URLs, files, executables. Cross-platform.",
-  "repository": "sukkaw/bundled-open-cli",
+  "repository": "https://github.com/SukkaW/bundled-open-cli",
   "main": "dist/cli.mjs",
   "bin": {
     "open-cli": "dist/cli.mjs"
