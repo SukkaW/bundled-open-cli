@@ -1,0 +1,31 @@
+{
+  "name": "@sukka/open",
+  "version": "0.0.0",
+  "private": false,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --format=sukka",
+    "build": "rollup -c rollup.config.ts --configPlugin swc3 --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.5.0",
+    "eslint-config-sukka": "6.0.0-beta.25",
+    "eslint-formatter-sukka": "6.0.0-beta.25",
+    "rollup": "^4.18.0",
+    "rollup-plugin-swc3": "^0.11.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@eslint-sukka/node": "^5.1.2",
+    "@eslint-sukka/ts": "^5.1.2",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^20.14.7",
+    "open-cli": "^8.0.0"
+  },
+  "packageManager": "pnpm@9.4.0"
+}
