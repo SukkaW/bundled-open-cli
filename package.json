@@ -6,6 +6,7 @@
   "repository": "https://github.com/SukkaW/bundled-open-cli",
   "main": "dist/cli.mjs",
   "bin": {
+    "open": "dist/cli.mjs",
     "open-cli": "dist/cli.mjs"
   },
   "files": [
