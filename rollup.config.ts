@@ -19,7 +19,7 @@ export default defineConfig({
     minify({
       compress: {
         module: true,
-        passes: 3,
+        passes: 3
       },
       mangle: true,
       format: {
