@@ -1,6 +1,6 @@
 {
   "name": "bundled-open-cli",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.1",
   "private": false,
   "description": "Open stuff like URLs, files, executables. Cross-platform.",
   "repository": "https://github.com/SukkaW/bundled-open-cli",
