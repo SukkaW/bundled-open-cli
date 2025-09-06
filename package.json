@@ -46,21 +46,20 @@
   "author": "SukkaW <https://skk.moe>",
   "license": "MIT",
   "devDependencies": {
-    "@eslint-sukka/node": "^6.0.1",
-    "@eslint-sukka/ts": "^6.0.0-beta.23",
-    "@rollup/plugin-commonjs": "^26.0.1",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@types/node": "^20.14.9",
-    "bumpp": "^9.4.1",
-    "eslint": "^9.6.0",
-    "eslint-config-sukka": "6.0.1",
-    "eslint-formatter-sukka": "6.0.1",
+    "@eslint-sukka/node": "^6.23.1",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@types/node": "^24.3.1",
+    "bumpp": "^10.2.3",
+    "eslint": "^9.35.0",
+    "eslint-config-sukka": "^6.23.1",
+    "eslint-formatter-sukka": "^6.23.1",
     "open-cli": "^8.0.0",
-    "rollup": "^4.18.0",
-    "rollup-plugin-swc3": "^0.11.2",
-    "typescript": "^5.5.3"
+    "rollup": "^4.50.0",
+    "rollup-plugin-swc3": "^0.12.1",
+    "typescript": "^5.9.2"
   },
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@10.15.1",
   "engines": {
     "node": ">=18"
   }
