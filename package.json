@@ -15,6 +15,7 @@
   "scripts": {
     "lint": "eslint . --format=sukka",
     "build": "rollup -c rollup.config.ts --configPlugin swc3 --bundleConfigAsCjs",
+    "prelease": "pnpm run lint && pnpm run build",
     "release": "bumpp -r --all --commit \"release: %s\" --tag \"%s\""
   },
   "keywords": [
