@@ -10,11 +10,21 @@ export default defineConfig({
     format: 'es'
   },
   plugins: [
-    commonjs(),
+    commonjs({
+      esmExternals: true
+    }),
     nodeResolve({
       exportConditions: ['import', 'require', 'default']
     }),
     minify({
+      compress: {
+        module: true,
+        passes: 3,
+      },
+      mangle: true,
+      format: {
+        ascii_only: true
+      },
       module: true
     })
   ]
