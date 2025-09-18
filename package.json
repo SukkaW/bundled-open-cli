@@ -48,20 +48,20 @@
   "author": "SukkaW <https://skk.moe>",
   "license": "MIT",
   "devDependencies": {
-    "@eslint-sukka/node": "^6.23.1",
+    "@eslint-sukka/node": "^7.1.1",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
-    "@types/node": "^24.3.1",
+    "@types/node": "^24.5.2",
     "bumpp": "^10.2.3",
     "eslint": "^9.35.0",
-    "eslint-config-sukka": "^6.23.1",
-    "eslint-formatter-sukka": "^6.23.1",
+    "eslint-config-sukka": "^7.1.1",
+    "eslint-formatter-sukka": "^7.1.1",
     "open-cli": "^8.0.0",
-    "rollup": "^4.50.0",
+    "rollup": "^4.50.2",
     "rollup-plugin-swc3": "^0.12.1",
     "typescript": "^5.9.2"
   },
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.17.0",
   "engines": {
     "node": ">=18"
   }
